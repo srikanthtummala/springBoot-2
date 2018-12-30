@@ -5,7 +5,7 @@
 
 	<groupId>srikanth.labs</groupId>
 	<artifactId>springBoot-2</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>springBoot-2</name>
@@ -28,12 +28,12 @@
 	  <repository>
 		<id>release</id>
 		<name>releases</name>
-		<url>http://localhost:9002/artifactory/libs-release-local</url>
+		<url>http://localhost:7081/artifactory/libs-release-local</url>
 	  </repository>
 	  <snapshotRepository>
 		<id>snapshot</id>
 		<name>snapshots</name>
-		<url>http://localhost:9002/artifactory/libs-snapshot-local</url>
+		<url>http://localhost:7081/artifactory/libs-snapshot-local</url>
 	  </snapshotRepository>
 	</distributionManagement>
 
